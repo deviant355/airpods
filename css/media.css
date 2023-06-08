@@ -1,0 +1,128 @@
+
+
+@media screen and ( max-width:1080px ){
+    .banner{
+        height: 730px;
+    }
+    .earphone__white{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .earphone__gray{
+        flex-direction: column;
+    }
+    .earphone__black {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .earphone__black img{
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .earphone__img img{
+        max-width: 75%;
+        max-height: 75%;
+  
+    }
+    .earphone__white img{
+      max-width: 90%;
+      max-height: 90%;
+
+    }
+    .mobilephones__wrap{
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .model{
+        width: 47%;
+    }
+    }
+
+@media screen and ( max-width:880px ){
+    .earphone__gray-p-two{
+        height: 70%;
+        width: 70%;
+    }
+    .earphone__gray-p-one{
+        height: 70%;
+        width: 70%;
+    }
+}
+@media screen and ( max-width:768px ) {
+    .header__nav{ 
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .mobilephones__wrap{
+        
+        height: 100%;
+        width: 100%;
+       
+    }
+    .banner__title {
+        
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 70px;
+
+    }
+    .banner{
+        height: 540px;
+    }
+}
+@media screen and ( max-width:670px ){
+    .footer__wrap{
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+}
+@media screen and ( max-width:576px ) {
+    .nav__menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner__title {
+        
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 70px;
+
+    }
+    .earphone__black img{
+        max-width: 85%;
+        max-height: 85%;
+  
+    }
+    .earphone__img img {
+        max-width: 50%;
+        max-height: 50%;
+  
+    }
+    .earphone__white img{
+        max-width: 85%;
+        max-height: 85%;
+  
+      }
+}
+@media screen and ( max-width:410px ) {
+ 
+}
+@media screen and ( max-width:345px ){
+    .banner__text-wrap { 
+        height: 30px;
+    }
+  .mobilephone__h{
+    font-size: 18px;
+  }
+    .banner__title {
+        
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 60px;
+
+    }
+}
